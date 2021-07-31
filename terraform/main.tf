@@ -6,7 +6,8 @@ resource "aws_security_group" "terraform_sg" {
 
   ingress {
     description      = "TLS from VPC"
-	@@ -19,9 +20,44 @@ resource "aws_instance" "devops-2021" {
+	  
+  resource "aws_instance" "devops-2021" {
   ami           = var.ami_id
   instance_type = var.inst_type
   count = var.count_value
