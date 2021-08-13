@@ -1,8 +1,8 @@
-resource "aws_vpc" "vpc_7thAug" {
-  cidr_block       = var.aws_vpc_cidr
+resource "aws_vpc" "aws_vpc_aug7th" {
+  cidr_block       = var.cidr
   instance_tenancy = "default"
 
   tags = {
-    Name = "7thAug"
+    Name = "ModuleTestVPC"
   }
 }

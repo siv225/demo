@@ -1,1 +1,2 @@
-variable "aws_vpc_cidr" {}
+variable "cidr" {}
+variable "name" {}
