@@ -1,3 +1,4 @@
+#variable values
 aws_subnet_cidr1 = "10.0.0.0/24"
 aws_subnet_cidr2 = "10.0.2.0/24"
 aws_subnet_cidr3 = "10.0.4.0/24"
