@@ -30,6 +30,6 @@ module "aws" {
   ami_id = "ami-0233c2d874b811deb"
   count_value = 1
   inst_type = "t2.micro"
-  subnet_id   = "${module.Subnet.subnet_7thAug.id}"
+  subnet_id   = "${module.Subnet.my_subnet_id}"
 
 }
